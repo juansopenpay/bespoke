@@ -1,0 +1,51 @@
+{
+	"customerJourney": {
+		"origin": "Online",
+		"online": {
+			"callbackUrl": "https://code.saavedrajj.com/openpay/callback.php",
+			"cancelUrl": "https://code.saavedrajj.com/openpay/cancel.php",
+			"failUrl": "https://code.saavedrajj.com/openpay/fail.php",
+			"planCreationType": "Pending",
+			"chargeBackCount": -1,
+			"customerQuality": -1,
+			"customerDetails": {
+				"firstName": "John",
+				"otherNames": "",
+				"familyName": "Doe",
+				"email": "openpaybuyer@gmail.com",
+				"dateOfBirth": "01 Jan 1980",
+				"gender": "M",
+				"phoneNumber": "7654654563",
+				"residentialAddress": {
+					"line1": "123 Regent Street",
+					"line2": "",
+					"suburb": "London",
+					"state": "Greater London",
+					"postCode": "W1B 5SA"
+				},
+				"deliveryAddress": {
+					"line1": "2 Eastbourne Terrace",
+					"line2": "",
+					"suburb": "London",
+					"state": "Greater London",
+					"postCode": "W1D 4EG"
+				}
+			},
+			"deliveryDate": "10 Jul 2020"
+		}
+	},
+	"goodsDescription": "Goods description",
+	"purchasePrice": 10000,
+	"retailerOrderNo": "00000001",
+	"cart": [
+		{
+			"itemName": "Item name",
+			"itemGroup": "Item group",
+			"itemCode": "12345678",
+			"itemGroupCode": "1234567890123",
+			"itemRetailUnitPrice": 5000,
+			"itemQty": "2",
+			"itemRetailCharge": 10000
+		}
+	]
+}
