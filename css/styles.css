@@ -11,7 +11,7 @@
 html, body { width: 100%; font-family: 'canada-type-gibson', sans-serif; font-size: 16px; font-weight: 100; color: #333332; background: #ffffff; padding: 0px; margin: 0px; }
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
 a { text-decoration: none; color: #FFB81C !important; }
-ul { list-style-position: inside;/* margin: 10px 0;*/}
+ul { list-style-position: inside; }
 img { max-width: 100%; }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'openpay_headlineregular', sans-serif;
@@ -19,7 +19,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 p, ul { margin: 0 0 10px 0 !important;}
 p:nth-child(odd) { /*background: red;*//*margin: 0 0 10px 0;*/ }
-
 p:nth-child(even) {/* background: blue;*//*margin: 0 0 10px 0;*/ }
 
 .container {
@@ -134,7 +133,6 @@ line-height: 23px;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-body { /*background: red;*/ }
 .container { padding: 5px !important; } 
 .product { display: block !important; } 
 .product .image { width:100%; }
@@ -144,25 +142,21 @@ body { /*background: red;*/ }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  /*body { background: blue; }*/
   .subfooter { width: 50%; }  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /*body { background: yellow; }*/
   .subfooter { width: 25%; }    
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /*body { background: pink; }*/
   .subfooter { width: 25%; }   
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
- /*body { background: grey; }*/
 }
 
 

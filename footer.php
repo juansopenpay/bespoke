@@ -35,4 +35,4 @@
 		</div>
 	</div>											
 </div>
-<div class="copyright"><p>&#169; <?php echo date("Y"); ?> <a href="https://www.openpay.co.uk">Openpay</a> Demo Store</p></div>
+<div class="copyright"><p>&#169; <?php echo date("Y"); ?> <a href="https://www.openpay.co.uk" target="_blank">Openpay</a> Demo Store</p></div>

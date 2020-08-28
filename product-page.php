@@ -17,7 +17,7 @@
 		<!--		
 		<div class="logo"><img src="images/logo.png" alt=""></div>
 		-->
-		<h1>Openpay Demo Store</h1>
+		<h1><a href="index.php">Openpay Demo Store</a></h1>
 		<h2>Product page</h2>
 
 		<div class="breadcrumb">
@@ -47,7 +47,7 @@
 					<li>Material: 100% cotton (charcoal: 50% cotton, 50% polyester; heather blue: 50% cotton, 50% polyester; heather grey: 85% cotton, 15% viscose; heather burgundy: 65% cotton, 35% polyester).</li>
 				</ul>  
 
-				<p>[PDP widgest]</p>
+				<p>[PDP widget]</p>
 				<form method="post" id="payment-form" action="checkout-page.php">
 				<button class="button">Add to bag</button>
 			</form>

@@ -18,8 +18,10 @@ $orderid = $_GET['orderid'];
 </head>
 <body>
 	<div class="container">
+	<!--
 		<div class="logo"><img src="images/logo.png" alt=""></div>
-		<h1>Ecommerce Integration</h1>
+	-->
+		<h1><a href="index.php">Openpay Demo Store</a></h1>
 
 		<div class="breadcrumb">
 			<ul>

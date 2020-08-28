@@ -1,0 +1,328 @@
+/*@import url("https://use.typekit.net/oob7tii.css");
+
+@font-face {
+  font-family: 'openpay_headlineregular';
+  src: url('../fonts/OpenpayHeadline.woff2') format('woff2'),
+  url('../fonts/OpenpayHeadline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+html,
+body { scroll-behavior: smooth; }
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
+
+.openpaycenter {
+  font-family: 'canada-type-gibson', sans-serif; 
+  font-size: 16px; 
+  font-weight: normal;
+  color: #333332; 
+  background: #ffffff;
+  width: 100%; 
+  padding: 0px; 
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.openpaycenter img {
+    /*width: 100%;*/
+}
+.openpay-wrap {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.openpay-wrap p {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding: 20px;
+  color: #333332;
+}
+
+.openpay-wrap p a {
+  color: #38465b;
+  font-weight: 600px;
+  text-decoration: underline;
+}
+
+.openpay-head-block {
+  width: 100%;
+  text-align:center;
+  position: relative;
+}
+
+.openpay-content-row-top {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.openpay-content-row-top p { 
+  font-family: 'canada-type-gibson', sans-serif;
+  color: #333332;
+  font-weight: 100;
+}
+
+.openpay-content-row-top h1 {
+  font-family: 'openpay_headlineregular', sans-serif;
+  font-weight: normal;
+  line-height: 38px;
+  text-align: center;
+  padding: 5px 0 15px 0;
+  margin: 0 auto;
+  color: #333332;  
+}
+
+.openpay-content-row-top.available { 
+  text-align: center;
+  margin-top: 30px !important;
+  background: #333332 !important;
+}
+
+.openpay-content-row-top.available h2 { 
+  font-family: 'openpay_headlineregular', sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  font-weight: normal;
+  color: #FFB81C;
+  background: #333332;
+}
+
+.openpay-wrap .four-circle-block {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 50px 0px 0px;
+}
+
+.openpay-wrap .four-circle-block h3 {
+  font-family: 'openpay_headlineregular', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: #333332;
+}
+
+.openpay-wrap .four-circle-block ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.openpay-wrap .four-circle-block ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.openpay-wrap .four-circle-block ul li img {
+    text-align: top;
+    width: 54%;
+}
+
+.openpay-wrap .four-circle-block ul li p {
+  font-size: 16px;
+  font-weight:100;
+  text-align: center;
+  margin: 0 auto;
+  padding:15px 0 0 0;
+}
+
+.openpay-wrap .four-circle-block ul li b {
+  font-family: 'openpay_headlineregular';
+  font-weight: 10;
+}
+
+.openpay-wrap .four-circle-block ul li p b span {
+  font-size:20px;
+  font-weight: 600;
+}
+
+.openpay-wrap .openpay-content-row.started {
+  background: #F2F2F2;
+  font-weight:100;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 30;
+}
+
+.openpay-wrap .openpay-content-row.started h3 {
+  font-family: 'openpay_headlineregular', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
+  text-align: center;
+  color: #333332;
+}
+
+.openpay-wrap .openpay-content-row.started  ul {
+  text-align:center;
+}
+
+.openpay-wrap .openpay-content-row.started  ul li::before {
+  content: "\25A0";  
+  color: #FFB81C; 
+  width: 0em;
+  margin-left: 0em; 
+}
+
+.openpay-wrap .openpay-content-row.started ul li {
+  list-style-position: outside;  
+  display: inline-block;
+  vertical-align: top;
+  text-align: left !important;
+  padding: 0px 0px 12px 0px;
+}
+
+.openpay-wrap .openpay-content-row.quick { 
+  width: 100%;
+}
+
+.openpay-wrap .openpay-content-row.quick h3 {
+  font-family: 'openpay_headlineregular', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: #333332;
+  margin: 50px 0 30px;
+} 
+
+.openpay-wrap .openpay-content-row.quick .collapsible {
+    background: #FFFFFF;
+    font-family: 'openpay_headlineregular';
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 18px 0 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    border-top:1px solid #333332;
+}
+
+.openpay-wrap .openpay-content-row.quick .collapsible:last-child {
+    /* border-top:1px solid #000000;*/
+    /*border-bottom:1px solid #333332;   */
+}
+
+.openpay-wrap .openpay-content-row.quick .collapsible:after {
+    content: '\002B';
+    color: #FFB81C;
+    float: right;
+}
+
+.openpay-wrap .openpay-content-row.quick .active:after {
+    content: "\2212";
+}
+
+.openpay-wrap .openpay-content-row.quick .content {
+    padding: 0 60px 0 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in;
+    background-color: #FFFFFF;
+    text-align: left !important;
+}
+
+.openpay-wrap .openpay-content-row.quick .content p {
+    text-align:left !important;
+    font-size: 16px !important;
+    font-weight: 100;
+    padding: 0px 0px 18px 0px !important;
+}
+
+.openpay-wrap .openpay-content-row.quick .content a {
+    color:#FFB81C !important;
+}
+.openpay-wrap .openpay-content-row.footer {
+    width: 100%;
+    margin: 40px 0 0 0;
+}
+.openpay-wrap .openpay-content-row.footer p{
+    font-size: 16px !important;
+    font-weight: 100;
+}
+
+.openpay-wrap .openpay-content-row.footer a {
+    color:#FFB81C !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .openpay-head-block { width:100%; }  
+    .openpay-head-block img { width: 44%; margin: 80px 0px 0px 0px;}  
+    .openpay-content-row-top h1 { font-size: 25px; }   
+    .openpay-content-row-top p { font-size: 17px !important; }
+    .openpay-content-row-top p span { display:block; }
+    .openpay-content-row-top.available h2 { padding: 12px 0; }
+    .openpay-content-row-top.available h2 span{ display:block; }
+    .openpay-wrap .four-circle-block ul li { width: 45% !important; padding: 30px 30px; }
+    .openpay-wrap .four-circle-block ul li p { line-height: 22px; }
+    .openpay-wrap .openpay-content-row.started  ul { padding: 30px 0px 0px 0px; }
+    .openpay-wrap .openpay-content-row.started  ul li { width: 49%;} 
+    .openpay-wrap .openpay-content-row.quick { padding: 0 20px; }    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .openpay-head-block { width:100%; }  
+    .openpay-head-block img { width: 45%; margin: 70px 0px 0px 0px;}  
+    .openpay-content-row-top h1 { font-size: 24px; }   
+    .openpay-content-row-top p { font-size: 17px !important; }
+    .openpay-content-row-top p span { display:block; }
+    .openpay-content-row-top.available h2 { padding: 14px 0; }
+    .openpay-wrap .four-circle-block ul li {  width: 45% !important; padding: 30px 30px;}
+    .openpay-wrap .four-circle-block ul li p { line-height: 22px; }
+    .openpay-wrap .openpay-content-row.started ul { padding: 30px 0px 0px 0px; }
+    .openpay-wrap .openpay-content-row.started ul li { width:40%; } 
+    .openpay-wrap .openpay-content-row.quick { padding: 0 80px; }  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .openpay-head-block { width:100%; }  
+    .openpay-head-block img { width: 27%; margin: 70px 0px 0px 0px;} 
+    .openpay-content-row-top h1 { font-size: 28px; }  
+    .openpay-content-row-top p { font-size: 20px !important; }
+    .openpay-content-row-top p span { display: inline; }    
+    .openpay-content-row-top.available h2 { padding: 16px 0; }
+    .openpay-wrap .four-circle-block ul li { width: 21% !important; padding: 30px 20px; }
+    .openpay-wrap .four-circle-block ul li p { line-height: 24px; }  
+    .openpay-wrap .openpay-content-row.started ul { padding: 30px 0px 0px 0px; }  
+    .openpay-wrap .openpay-content-row.started ul li { width:40%;} 
+    .openpay-wrap .openpay-content-row.quick { padding: 0 80px; }  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .openpay-head-block { width:100%; }  
+    .openpay-head-block img { width: 27%; margin: 70px 0px 0px 0px; }
+    .openpay-content-row-top h1 { font-size: 36px; }
+    .openpay-content-row-top p { font-size: 20px !important; }
+    .openpay-content-row-top p span { display: inline; }
+    .openpay-content-row-top.available h2 { padding: 16px 0; }                
+    .openpay-wrap .four-circle-block ul li { width: 21% !important; padding: 30px 25px;}
+    .openpay-wrap .four-circle-block ul li p { line-height: 24px; }    
+    .openpay-wrap .openpay-content-row.started ul { padding: 30px 100px 0px 100px; }
+    .openpay-wrap .openpay-content-row.started ul li { width:33%;} 
+    .openpay-wrap .openpay-content-row.quick { padding: 0 100px; }  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .openpay-head-block { width:100%; }  
+    .openpay-head-block img { width: 27%; margin: 70px 0px 0px 0px;}
+    .openpay-content-row-top h1 { font-size: 36px; }
+    .openpay-content-row-top p { font-size: 20px !important; }
+    .openpay-content-row-top p span { display: inline; } 
+    .openpay-content-row-top.available h2 { padding: 16px 0; }
+    .openpay-wrap .four-circle-block ul li { width: 21% !important; padding: 30px 30px; line-height: 24px; }
+    .openpay-wrap .openpay-content-row.started ul { padding: 30px 190px 0px 190px; }
+    .openpay-wrap .openpay-content-row.started ul li { width:33%; } 
+    .openpay-wrap .openpay-content-row.quick { padding: 0 100px; }
+}
+
+

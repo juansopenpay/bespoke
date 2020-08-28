@@ -17,7 +17,7 @@
 		<!--		
 		<div class="logo"><img src="images/logo.png" alt=""></div>
 	-->
-	<h1>Openpay Demo Store</h1>
+	<h1><a href="index.php">Openpay Demo Store</a></h1>
 	<h2>Checkout page</h2>
 	<div class="breadcrumb">
 		<ul>
